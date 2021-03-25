@@ -21,15 +21,14 @@ jobs:
     - name: Prepare build folder
       run: |
         mkdir public
-        cp styles.css public/
-        cp -R assets public/
+        cp -R static public/
     
     - name: Build slides
       run: >
         pandoc -t revealjs slides.md -o public/index.html
         --mathjax 
         --standalone
-        --css=styles.css
+        --css=static/styles.css
         --css=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css
     
     - name: Deploy

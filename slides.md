@@ -72,7 +72,7 @@ pandoc -t revealjs slides.md -o index.html  \
 
 ### Plots
 
-<iframe scrolling="no" style="border:none;" seamless="seamless" data-src="assets/plotly_example.html" height="450" width="100%"></iframe>
+<iframe scrolling="no" style="border:none;" seamless="seamless" data-src="static/plotly_example.html" height="450" width="100%"></iframe>
 
 
 ### Math
@@ -97,7 +97,7 @@ fun(2, 2)
 
 ### Images
 
-![](assets/coding.jpg){ width=40% }
+![](static/coding.jpg){ width=40% }
  
 <span class="smallfont">Photo by <a href="https://unsplash.com/@arifriyanto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Arif Riyanto</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
