@@ -3,8 +3,8 @@ author: Malte Bonart
 title: Markdown Presentation
 subtitle: pandoc + reveal.js + gh pages
 date: 2021-03-25
-theme: moon # https://revealjs.com/themes/
-transition: slide # https://revealjs.com/transitions/
+theme: blood # https://revealjs.com/themes/
+transition: zoom # https://revealjs.com/transitions/
 # see all the options here: https://revealjs.com/config/
 highlight-style: breezeDark
 progress: true
