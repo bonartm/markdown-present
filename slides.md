@@ -1,8 +1,7 @@
 ---
 author: Malte Bonart
 title: Markdown Presentation
-subtitle: pandoc + reveal.js + gh pages
-date: 2021-03-25
+subtitle: <img src="static/coding.jpg" style="max-height:300px;"></img>
 theme: blood # https://revealjs.com/themes/
 transition: zoom # https://revealjs.com/transitions/
 # see all the options here: https://revealjs.com/config/
@@ -12,6 +11,9 @@ slideNumber: true
 hash: true
 navigationMode: linear
 autoPlayMedia: true
+# https://revealjs.com/presentation-size/
+margin: 0.01
+# width: 1920
 ---
 
 # reveal.js
@@ -28,7 +30,7 @@ autoPlayMedia: true
 ### Installation
 
 ```
-conda install -c conda-forge pandoc 
+pip install pandoc 
 ```
 
 ### Usage
@@ -97,9 +99,13 @@ fun(2, 2)
 
 ### Images
 
-![](static/coding.jpg){ width=40% }
- 
+<img src="static/coding.jpg" style="max-height:400px;"></img>
+
 <span class="smallfont">Photo by <a href="https://unsplash.com/@arifriyanto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Arif Riyanto</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+
+# {data-background="static/coding.jpg"}
+
 
 
 ### CSS Styling
@@ -120,7 +126,6 @@ with a separate stylesheet (`styles.css`)!
 - [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets)
 - [DrivenData DS Competitions](https://www.drivendata.org/)
 - [Kaggle DS Competitions](https://www.kaggle.com/competitions)
-- [Spiced Project Ideas](http://krspiced.pythonanywhere.com/chapters/final_project/README.html#project-ideas)
 
 
 ### Fontawesome icons
