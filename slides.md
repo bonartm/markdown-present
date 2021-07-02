@@ -2,8 +2,8 @@
 author: Malte Bonart
 title: Markdown Presentation
 subtitle: <img src="static/coding.jpg" style="max-height:300px;"></img>
-theme: blood # https://revealjs.com/themes/
-transition: zoom # https://revealjs.com/transitions/
+theme: night # https://revealjs.com/themes/
+transition: slide # https://revealjs.com/transitions/
 # see all the options here: https://revealjs.com/config/
 highlight-style: breezeDark
 progress: true
