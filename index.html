@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Malte Bonart">
-  <meta name="dcterms.date" content="2021-03-25">
   <title>Markdown Presentation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -92,9 +91,8 @@
 
 <section id="title-slide">
   <h1 class="title">Markdown Presentation</h1>
-  <p class="subtitle">pandoc + reveal.js + gh pages</p>
+  <p class="subtitle"><img src="static/coding.jpg" style="max-height:300px;"></img></p>
   <p class="author">Malte Bonart</p>
-  <p class="date">2021-03-25</p>
 </section>
 
 <section>
@@ -113,7 +111,7 @@
 </section>
 <section id="installation" class="slide level3">
 <h3>Installation</h3>
-<pre><code>conda install -c conda-forge pandoc </code></pre>
+<pre><code>pip install pandoc </code></pre>
 </section>
 <section id="usage" class="slide level3">
 <h3>Usage</h3>
@@ -184,8 +182,13 @@ f(x, y) = \frac{\sqrt{x^2+y^2}}{x+y}
 </section>
 <section id="images" class="slide level3">
 <h3>Images</h3>
-<p><img data-src="static/coding.jpg" style="width:40.0%" /></p>
+<p><img src="static/coding.jpg" style="max-height:400px;"></img></p>
 <p><span class="smallfont">Photo by <a href="https://unsplash.com/@arifriyanto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Arif Riyanto</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+</section></section>
+<section>
+<section id="section" class="title-slide slide level1" data-background="static/coding.jpg">
+<h1 data-background="static/coding.jpg"></h1>
+
 </section>
 <section id="css-styling" class="slide level3">
 <h3>CSS Styling</h3>
@@ -205,7 +208,6 @@ or the color
 <li><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome public datasets</a></li>
 <li><a href="https://www.drivendata.org/">DrivenData DS Competitions</a></li>
 <li><a href="https://www.kaggle.com/competitions">Kaggle DS Competitions</a></li>
-<li><a href="http://krspiced.pythonanywhere.com/chapters/final_project/README.html#project-ideas">Spiced Project Ideas</a></li>
 </ul>
 </section>
 <section id="fontawesome-icons" class="slide level3">
@@ -247,6 +249,8 @@ or the color
         autoPlayMedia: true,
         // Transition style
         transition: 'zoom', // none/fade/slide/convex/concave/zoom
+        // Factor of the display size that should remain empty around the content
+        margin: 0.01,
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',
